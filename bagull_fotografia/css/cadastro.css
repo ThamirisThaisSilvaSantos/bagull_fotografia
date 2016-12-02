@@ -1,0 +1,136 @@
+@font-face { 
+  font-family: Jenna Sue; 
+    src: url('../fonts/JennaSue-webfont.eot'); 
+    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+body { 
+  font: normal .80em arial, sans-serif;}
+
+
+p { 
+  padding: 0 0 25px 0;
+  line-height: 1.7em;}
+
+img { 
+  border: 0;}
+
+h1, h2, h3, h4, h5, h6 { 
+  font: normal 350% 'Jenna Sue', arial, sans-serif;
+  margin: 0 0 5px 0;
+  padding: 0;}
+
+h2 { 
+  font: normal 170% 'Jenna Sue', arial, sans-serif;
+  margin: 0;
+  padding: 0 0 8px 0;}
+
+h3 { 
+  font: normal 150% arial, sans-serif;}
+
+h4, h5, h6 { 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 110% arial, sans-serif;
+  line-height: 1.5em;}
+
+.cad-card {  /*CAIXA DO LOGIN*/
+  padding: 40px;
+  width: 274px;
+  height:560px;
+  background-color: #444;
+  margin: 0 auto 10px;
+  border-radius: 0px;/*Borda da caixa*/
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+ 
+}
+
+.cad-card h1 {/*TEXTO "LOGAR"*/
+  font-weight: 200;
+  text-align: center;
+  font-size: 5.2em;
+}
+
+.cad-card input[type=submit] { /*BOTÃO*/
+  width: 40%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  top:0px;
+  left:0px;
+}
+.voltar{/*BOTÃO VOLTAR*/
+
+position: relative;
+  top:-88px;
+  left:160px;
+}
+
+.voltar {/*ALINHAMENTO BOTAO LOGAR*/
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Jenna Sue', arial, sans-serif;
+  font-weight: 700;
+  height: 40px;
+  padding: 0 8px;
+}
+
+.cad-card input[type=text], intput [type=email], input[type=password] {/*CAMPOS LOGIN E SENHA*/
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.cad-card  input[type=text], input[type=password], input[type=email] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  
+}
+
+.cadastro{/*ALINHAMENTO BOTAO LOGAR*/
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Jenna Sue', arial, sans-serif;
+  font-weight: 700;
+  height: 40px;
+  padding: 0 8px;
+}
+
+
+.cad-card a { 
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.cad-card a:hover {/* ABAIXO DOS CAMPOS LOGIN E SENHA*/
+  opacity: 1;
+}

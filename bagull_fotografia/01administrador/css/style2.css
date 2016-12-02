@@ -1,0 +1,157 @@
+﻿@font-face { 
+  font-family: Jenna Sue; 
+    src: url('../fonts/JennaSue-webfont.eot'); 
+    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+body { 
+  font: normal .80em arial, sans-serif;}
+
+
+p { 
+  padding: 0 0 25px 0;
+  line-height: 1.7em;}
+
+img { 
+  border: 0;}
+
+h1, h2, h3, h4, h5, h6 { 
+  font: normal 350% 'Jenna Sue', arial, sans-serif;
+  margin: 0 0 5px 0;
+  padding: 0;}
+
+h2 { 
+  font: normal 170% 'Jenna Sue', arial, sans-serif;
+  margin: 0;
+  padding: 0 0 8px 0;}
+
+h3 { 
+  font: normal 150% arial, sans-serif;}
+
+h4, h5, h6 { 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 110% arial, sans-serif;
+  line-height: 1.5em;
+  
+  }
+
+a, a:hover { 
+  outline: none;
+  text-decoration: none;
+  
+  }
+
+a:hover { 
+  text-decoration: none;
+  }
+
+
+/*PAGINA CLIENTES*/
+table#alter tr.cabecalho th{/*cores das celulas*/
+background:#222;
+width:140px;
+height:25px;
+text-align:center;
+font: 130% 'News Cycle', arial, sans-serif;
+}
+
+table#alter tr.celulas td{/*cores das celulas*/
+background:#3e3e3f;
+width:140px;
+height:25px;
+text-align:center;
+font: 110% 'News Cycle', arial, sans-serif;
+position:center;
+}
+/*FIM PAGINA CLIENTES*/
+
+/*PAGINA ALTERAR*/
+.alterar_adm {  /*CAIXA DO ALTERAR*/
+  padding: 40px;
+  width: 274px;
+  height:430px;
+  background-color: #444;
+  margin: 0 auto 10px;
+  border-radius: 0px;/*Borda da caixa*/
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+ 
+}
+
+.alterar_adm h1 {/*TEXTO "LOGAR"*/
+  font-weight: 20px;
+  text-align: center;
+}
+
+.alterar_adm input[type=text], intput [type=email], input[type=password] {/*CAMPOS NOME, EMAIL E SENHA*/
+  height: 35px;
+  font-size: 17px;
+  width: 100%;
+  margin-bottom: 25px;
+  -webkit-appearance: none;
+  background: #f7f5f5;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.alterar_adm input[type=submit] { /*BOTÃO*/
+  width: 40%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  top:0px;
+  left:0px;
+}
+
+.voltar_adm{/*BOTÃO VOLTAR*/
+position: relative;
+  top: -65px;
+  left: 160px;
+}
+
+.voltar_adm {/*ALINHAMENTO BOTAO VOLTAR*/
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Jenna Sue', arial, sans-serif;
+  font-weight: 700;
+  height: 40px;
+  padding: 0 8px;
+}
+
+.editar_adm{/*ALINHAMENTO BOTAO LOGAR*/
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Jenna Sue', arial, sans-serif;
+  font-weight: 700;
+  height: 40px;
+  padding: 0 8px;
+}
+
+.alterar_adm {/*CENTRALIZAR A CAIXA*/
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+/*FIM PAGINA ALTERAR*/
+ 
+
+
+
+
+
+
+
